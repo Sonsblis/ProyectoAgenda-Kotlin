@@ -1,0 +1,79 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AgendaProyecto" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.AgendaProyecto" parent="Base.Theme.AgendaProyecto" />
+
+
+    <!-- Background de la agenda -->
+    <style name="ThemeAgenda" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- ActionBar -->
+        <item name="android:statusBarColor">@color/BackgroundActionBar2</item>
+    </style>
+
+
+    <!-- DatePicker -->
+    <style name="DatePickerTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <!-- Aplicar el fondo redondeado -->
+        <item name="android:windowBackground">@drawable/rounded_dialog_background</item>
+        <!-- Personalizar otros atributos si es necesario -->
+        <item name="android:colorAccent">@color/TimeDatePickerBackground</item>
+        <!-- <item name="colorControlActivated">@color/selectedDateCircleColor</item> -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:buttonBarButtonStyle">@style/timePickerButton</item>
+    </style>
+
+    <!-- Define el estilo para el TimePickerDialog -->
+    <style name="TimePickerTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:colorAccent">@color/TimeDatePickerBackground</item>
+        <item name="android:windowBackground">@drawable/rounded_dialog_background</item>
+        <item name="colorControlActivated">@color/TimeDatePickerBackground</item>
+        <item name="android:buttonBarButtonStyle">@style/timePickerButton</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+    <!-- Define el estilo para los botones del TimePickerDialog y Date  PickerDialog -->
+    <style name="timeDatePickerButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/white</item> <!-- Cambiar el color del texto aquí -->
+    </style>
+
+    <!-- Define el estilo para los botones del TimePickerDialog y DatePickerDialog -->
+    <style name="timePickerButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">5dp</item> <!-- Añadir padding para asegurarse de que los botones tengan espacio -->
+    </style>
+
+
+
+    <!-- Pantalla de carga -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/BackgroundPantallaDeCarga</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/agendalogo</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/ThemeAgenda</item>
+    </style>
+
+
+
+
+
+
+    <style name="CustomDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:background">@drawable/rounded_dialog_background</item>
+        <item name="android:windowMinWidthMajor">70%</item>
+        <item name="android:windowMinWidthMinor">70%</item>
+        <item name="android:windowBackground">@drawable/rounded_dialog_background</item>
+    </style>
+
+
+    <!-- Menu modificar/eliminar -->
+
+
+
+</resources>

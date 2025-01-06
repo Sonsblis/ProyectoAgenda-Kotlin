@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="BackgroundActionBar">#336EA2</color>
+    <color name="BackgroundActionBar2">#995890</color>
+    <color name="BackgroundApp">#DCCFE0</color>
+    <color name="BackgroundApp2">#97A6B8</color>
+    <color name="ColorSubtitle">#96BDE2</color>
+    <color name="BackgroundCardView">#D9A7D1</color>
+    <color name="BackgroundCardView2">#41BCE6</color>
+    <color name="CardAgregarModificar">#5B90C4</color>
+    <color name="title">#F2DB5F</color>
+    <color name="editText">#BD72E0</color>
+    <color name="DateAndTimePicker">#5B90C4</color>
+    <color name="BackgroundPantallaDeCarga">#FFFFFF</color>
+    <color name="mensajeError">#F01616</color>
+    <color name="modificarEliminar">#FFFFFF</color>
+    <color name="colortransparente">#00FF0000</color>
+    <!-- <color name="colorPrimaryVariant">#283E4D</color> -->
+
+    <color name="TimeDatePickerBackground">#9997BC</color>
+    <!-- Define el color del círculo seleccionado -->
+    <color name="selectedDateCircleColor">#00E2FF</color>
+
+
+</resources>

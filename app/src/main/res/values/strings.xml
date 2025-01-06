@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tu Agenda</string>
+
+
+
+    <string name="time_picker_set_time_label">Seleccionar Hora</string>
+</resources>
